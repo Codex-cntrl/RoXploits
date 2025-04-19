@@ -19,7 +19,7 @@
       overflow: hidden;
     }
 
-    .container {
+    .centered {
       height: 100%;
       display: flex;
       flex-direction: column;
@@ -29,47 +29,46 @@
     }
 
     h1 {
-      font-size: 5rem;
       color: #ff0000;
-      text-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000;
+      font-size: 5rem;
+      text-shadow: 0 0 15px #ff0000;
       margin-bottom: 2rem;
     }
 
     .btn {
-      display: inline-block;
       padding: 1rem 3rem;
-      font-size: 1.2rem;
       background-color: #ff0000;
       color: #fff;
+      font-size: 1.3rem;
       border: none;
-      border-radius: 6px;
+      border-radius: 5px;
+      cursor: pointer;
       text-decoration: none;
-      box-shadow: 0 0 15px #ff0000;
-      transition: 0.3s ease;
+      box-shadow: 0 0 12px #ff0000;
+      transition: 0.3s;
     }
 
     .btn:hover {
-      box-shadow: 0 0 25px #ff0000, 0 0 50px #ff0000;
       background-color: #cc0000;
+      box-shadow: 0 0 25px #ff0000;
     }
 
     .marquee {
       position: absolute;
       bottom: 0;
       width: 100%;
-      background: #0a0a0a;
+      background-color: #0a0a0a;
       color: #ff0000;
       font-size: 0.9rem;
       padding: 6px 0;
       white-space: nowrap;
       overflow: hidden;
-      border-top: 1px solid #111;
     }
 
     .marquee span {
       display: inline-block;
       padding-left: 100%;
-      animation: scroll 15s linear infinite;
+      animation: scroll 18s linear infinite;
     }
 
     @keyframes scroll {
@@ -91,8 +90,8 @@
 </head>
 <body>
 
-  <div class="container">
-    <h1>Codex</h1>
+  <div class="centered">
+    <h1>CODEX</h1>
     <a class="btn" href="https://yourlink.com">Buy Key</a>
   </div>
 
