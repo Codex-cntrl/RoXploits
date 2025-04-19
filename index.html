@@ -1,103 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Codex</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    html, body {
-      height: 100%;
-      background-color: #000;
-      font-family: 'Orbitron', sans-serif;
-      overflow: hidden;
-    }
-
-    .centered {
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-
-    h1 {
-      color: #ff0000;
-      font-size: 5rem;
-      text-shadow: 0 0 15px #ff0000;
-      margin-bottom: 2rem;
-    }
-
-    .btn {
-      padding: 1rem 3rem;
-      background-color: #ff0000;
-      color: #fff;
-      font-size: 1.3rem;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      text-decoration: none;
-      box-shadow: 0 0 12px #ff0000;
-      transition: 0.3s;
-    }
-
-    .btn:hover {
-      background-color: #cc0000;
-      box-shadow: 0 0 25px #ff0000;
-    }
-
-    .marquee {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      background-color: #0a0a0a;
-      color: #ff0000;
-      font-size: 0.9rem;
-      padding: 6px 0;
-      white-space: nowrap;
-      overflow: hidden;
-    }
-
-    .marquee span {
-      display: inline-block;
-      padding-left: 100%;
-      animation: scroll 18s linear infinite;
-    }
-
-    @keyframes scroll {
-      0% { transform: translateX(0%); }
-      100% { transform: translateX(-100%); }
-    }
-
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 3rem;
-      }
-
-      .btn {
-        padding: 0.8rem 2rem;
-        font-size: 1rem;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Background Page</title>
+    <style>
+        /* Set the background to rgb(15, 15, 15) */
+        body {
+            background-color: rgb(15, 15, 15);
+            color: #ffffff; /* Ensure text is visible on dark background */
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+    </style>
 </head>
 <body>
-
-  <div class="centered">
-    <h1>CODEX</h1>
-    <a class="btn" href="https://yourlink.com">Buy Key</a>
-  </div>
-
-  <div class="marquee">
-    <span>Welcome to Codex • Unauthorized resale is prohibited • Join our Discord for support • Stay updated with the latest releases</span>
-  </div>
-
+    <h1>Welcome to the Dark Page</h1>
+    <p>This page uses a background color of rgb(15, 15, 15).</p>
 </body>
 </html>
